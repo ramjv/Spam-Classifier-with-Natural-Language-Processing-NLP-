@@ -7,7 +7,7 @@ Created on Wed Sep 18 01:59:42 2019
 
 import pandas as pd
 
-messages = pd.read_csv("C:/Ram Folders/Python/Data/RAM py projects/SpamClassifier-master/smsspamcollection/SMSSpamCollection", sep='\t',
+messages = pd.read_csv("/smsspamcollection/SMSSpamCollection", sep='\t',
                            names=["label", "message"])
 
 #Data cleaning and preprocessing
